@@ -1,0 +1,9 @@
+<h5>Titre : </h5><%= @task.title %>
+<h5>Détails: </h5><%= @task.details %>
+<h5>Fait : </h5> <%= @task.completed %>
+
+
+<p><%= link_to 'Modifier cette tâche', edit_task_path %></p>
+
+
+<p><%= link_to 'Mes tâches', tasks_path %></p>
